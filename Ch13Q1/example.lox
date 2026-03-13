@@ -1,0 +1,12 @@
+class A {
+  greet() { print "A"; }
+}
+
+class B {
+  greet() { print "B"; }
+}
+
+class C < A, B {}
+
+C().greet();
+
